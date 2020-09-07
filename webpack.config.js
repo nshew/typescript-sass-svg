@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
     "mode":    "development",
     "entry": {
-        "pacman": path.resolve(__dirname, "src/pacman.ts"),
+        "template": path.resolve(__dirname, "src/template.ts"),
     },
     "output":  {
         "path":     path.resolve(__dirname, "build"),

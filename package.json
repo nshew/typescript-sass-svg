@@ -1,7 +1,7 @@
 {
-  "name": "svg-pacman",
+  "name": "template-typescript-sass-svg",
   "version": "1.0.0",
-  "description": "Pac-Man animation in pure SVG (no CSS border hacks)",
+  "description": "boilerplate",
   "private": true,
   "scripts": {
     "build": "webpack --config webpack.config.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nshew/svg-pacman.git"
+    "url": "git+https://github.com/nshew/typescript-sass-svg.git"
   },
   "author": "nshewmaker@hotmail.com",
   "license": "GNU General Public License v3.0",
   "bugs": {
-    "url": "https://github.com/nshew/svg-pacman/issues"
+    "url": "https://github.com/nshew/typescript-sass-svg/issues"
   },
-  "homepage": "https://github.com/nshew/svg-pacman#README.md",
+  "homepage": "https://github.com/nshew/typescript-sass-svg#README.md",
   "dependencies": {},
   "devDependencies": {
     "css-loader": "^3.0.0",
