@@ -9,8 +9,8 @@ module.exports = {
     },
     plugins: [
         new CleanWebpackPlugin({ cleanStaleWebpackAssets: false }),
-        // TODO: customize https://github.com/jantimon/html-webpack-plugin
         new HtmlWebpackPlugin({
+            // TODO: customize https://github.com/jantimon/html-webpack-plugin
             title: 'Template: TypeScript + Sass + SVG (HtmlWebpackPlugin)',
         }),
     ], 
@@ -55,13 +55,13 @@ module.exports = {
                 ],
             }, 
             // TODO: Get SVGs in the bundle
-            // {
-            //     test: /\.svg$/,
-            //     exclude: /node_modules/,
-            //     use: [
-            //       'svg-inline-loader',
-            //     ],
-            // },
+            {
+                test: /\.svg$/,
+                exclude: /node_modules/,
+                use: [
+                  'svg-inline-loader',
+                ],
+            },
         ]
     }
 };

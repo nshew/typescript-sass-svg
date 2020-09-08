@@ -3,14 +3,13 @@
  * this file exists just to pull in the assets.
  */
 import './template.scss';
-// import TemplateSVG from  './template.svg';
-// const logo = require("./logo.svg") as string;
+const TemplateSVG = require('./template.svg');
 
-// console.log('svg', TemplateSVG);
-
-// TODO: add SVG object to body
-//       <canvas id="renderCanvas" width="640" height="480"></canvas>
-// document.getElementById('svg-main').setAttribute('data', TemplateSVG);
+// add SVG object to body
+const svgEl = document.createElement('object');
+svgEl.setAttribute('type', 'image/svg+xml');
+svgEl.innerHTML = TemplateSVG;
+document.body.appendChild(svgEl);
 
 // interface ICoords {
 //     x: number;
