@@ -13,7 +13,8 @@
     ]
   },
   "include": [
-    "**/*.ts"
+    "src/*.ts",
+    "src/custom.d.ts"
   ],
   "exclude": [
     "build",

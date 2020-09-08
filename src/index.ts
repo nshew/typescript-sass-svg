@@ -1,8 +1,16 @@
 /**
  * Since there is no JavaScript needed by the animation,
- * this file exists just to pull in the SCSS.
+ * this file exists just to pull in the assets.
  */
-import './pacman.scss';
+import './template.scss';
+// import TemplateSVG from  './template.svg';
+// const logo = require("./logo.svg") as string;
+
+// console.log('svg', TemplateSVG);
+
+// TODO: add SVG object to body
+//       <canvas id="renderCanvas" width="640" height="480"></canvas>
+// document.getElementById('svg-main').setAttribute('data', TemplateSVG);
 
 // interface ICoords {
 //     x: number;
